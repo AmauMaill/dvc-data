@@ -18,7 +18,8 @@ generate() {
 	echo "* dvc get <GitHub URL> <FILE> to get a copy" >> ${FILE_NAME}
 
 	echo "## Catalogue" >> ${FILE_NAME}
-	echo "data/" >> ${FILE_NAME}
+	echo '`data/`' >> ${FILE_NAME}
+	echo "" >> ${FILE_NAME}
 	ls data >> ${FILE_NAME}
 }
 

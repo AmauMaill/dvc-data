@@ -10,5 +10,6 @@
 * dvc list <GitHub URL> to list the available files
 * dvc get <GitHub URL> <FILE> to get a copy
 ## Catalogue
-data/
+`data/`
+
 rent.csv
